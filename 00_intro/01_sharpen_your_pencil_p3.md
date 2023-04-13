@@ -38,7 +38,7 @@ printf("Dear %s. \n\n\tYou're history.\n", ex);
 // variable declared of char data-type with maximum characters storage set to 20
 // puts prints a string informing the user to make an action. Double quotes are used to surround a multi character string.
 // scanf accepts input from the (stdin) standard input stream / keyboard and will save the user input to the variable named ex as long as it meets the conditions of the %s format specifier and is less than 20 chars. Strings are character arrays and the final character in a char array is the null character '\0' which indicates to the compiler to stop reading the content of the string. Placing the numbers 19 between the '%' and the 's' will restrict the input to 19 characters - anything extra will be ignored.
-// printf will print the string provided and insert the value of the variable in place of the placeholder '%s' format specifier, the variable to replace the value with is passed as the second argument to the printf function with the string being the first.
+// printf will print the string provided and insert the value of the variable in place of the placeholder '%s' format specifier, the variable to replace the value with is passed as the second argument to the printf function with the string being the first - there can be multiple format specifiers acting as placeholders for their variable or value parameter counterparts.
 // double quotes are used to surround a multi character string.
 
 char suit = 'H';
