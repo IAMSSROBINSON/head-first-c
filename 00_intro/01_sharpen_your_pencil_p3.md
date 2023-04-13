@@ -14,6 +14,7 @@ if (card_count < 10) {
 // creates an if statement with a condition 
 // if the condition is true then the statements inside the block will run
 // the statement inside the block prints a string of characters (a sentence of words) to the standard output stream (stdout) / command line terminal and automatically places the cursor pointer on a new line
+// the statement will not print because the condition is not true. The value of card_count(11) is not less than 10
 
 int c = 10;
 while (c > 0) {
@@ -26,6 +27,7 @@ while (c > 0) {
 // puts will print to output the string passed in as an argument
 // the value of c is reassigned to be the current value minus 1 (10 - 1 = 9)
 // the loop iterates as the condition is still true
+// the statement will print 10 times until the value of c == 0, at which time the statement will be false as c will not be greater than 0
 
 /* Assume name shorter than 20 chars. */
 // The above line is a way of expressing multi line comments but can also be used for single lines
